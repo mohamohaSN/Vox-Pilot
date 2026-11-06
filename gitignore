@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+ wheels/
+
+# Test, coverage, and type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.*
+
+# Logs and generated data
+*.log
+logs/
+data/local/
+recordings/
+
+# PowerShell editor/session artifacts
+*.ps1xml
+*.clixml
+*.pssc
+*.psd1.user
+
+# IDEs and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local assistant state
+.cache/
+.state/
